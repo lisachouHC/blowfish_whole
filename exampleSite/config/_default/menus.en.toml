@@ -11,32 +11,30 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "Docs"
+  pageRef = "docs"
   weight = 10
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
+  name = "Samples"
+  pageRef = "samples"
   weight = 20
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
+  name = "Users"
+  pageRef = "users"
   weight = 30
 
+[[main]]
+  name = "GitHub"
+  url = "https://github.com/nunocoracao/blowfish"
+  weight = 40
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-
  [[footer]]
    name = "Tags"
    pageRef = "tags"
    weight = 10
-
- [[footer]]
-   name = "Categories"
-   pageRef = "categories"
-   weight = 20
