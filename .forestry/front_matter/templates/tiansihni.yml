@@ -3,5 +3,6 @@ label: tiansihni
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: title
+  name: test2
+  label: test1
+  description: 我的網站第一個頁面
