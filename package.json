@@ -3,7 +3,6 @@
   "version": "1.1.1",
   "description": "Blowfish theme for Hugo",
   "scripts": {
-    "preinstall": "rimraf assets/vendor",
     "postinstall": "vendor-copy",
     "assets": "rimraf assets/vendor && vendor-copy",
     "dev": "NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
