@@ -4,7 +4,6 @@
   "description": "Blowfish theme for Hugo",
   "scripts": {
     "rimraf": "./node_modules/rimraf/bin.js",
-    "preinstall": "rimraf assets/vendor",
     "postinstall": "vendor-copy",
     "assets": "rimraf assets/vendor && vendor-copy",
     "dev": "NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
