@@ -19,5 +19,5 @@ dateFormat = "2 January 2006"
   bio = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
   links = [
     { twitter = "https://twitter.com/burufugu" },
-    { github = "https://github.com/nunocoracao/blowfish" },
+    { github = "https://github.com/lisachouHC" },
   ]
